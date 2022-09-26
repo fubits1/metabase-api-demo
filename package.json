@@ -1,0 +1,17 @@
+{
+  "name": "correlaid",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "table": "node ./api-table-all.js",
+    "table-120": "node ./api-table-all.js 120"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "dotenv": "^16.0.2"
+  }
+}
