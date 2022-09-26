@@ -1,15 +1,19 @@
 {
-  "name": "correlaid",
-  "version": "1.0.0",
+  "name": "metabase-api-demo",
+  "version": "0.0.1",
   "description": "",
   "type": "module",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
+    "tables": "node ./api-table-all.js",
     "table": "node ./api-table-all.js",
-    "table-120": "node ./api-table-all.js 120"
+    "table-120": "node ./api-table-all.js 120",
+    "cards": "node ./api-card-query.js",
+    "query": "node ./api-card-query.js",
+    "query-28": "node ./api-card-query.js 28"
   },
-  "author": "",
+  "author": "@fubits",
   "license": "ISC",
   "devDependencies": {
     "dotenv": "^16.0.2"
