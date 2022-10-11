@@ -4,6 +4,21 @@
 
 ## Setup
 
+### Auth Token
+
+> via [Metabase docs](https://www.metabase.com/learn/administration/metabase-api#authenticate-your-requests-with-a-session-token)
+
+- to get a Auth token from Metabase, run:
+
+```{shell}
+curl -X POST \
+  -H "Content-Type: application/json" \
+  -d '{"username": "person@metabase.com", "password": "fakepassword"}' \
+  http://localhost:3000/api/session
+```
+
+### Node / Project
+
 > use **`Node 18`** (for `fetch`-support)
 
 - `cp .env.example .env`
