@@ -20,7 +20,7 @@ then
   curl -X POST \
     -H "Content-Type: application/json" \
     -d '{"username": "user", "password": "password"}' \
-    $metabaseUrl
+    https://your-metabase-url.org/api/session
   # echo $password
 fi
 
